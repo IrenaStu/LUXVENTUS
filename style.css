@@ -1,0 +1,672 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.body{
+    font-family: Poppins, sans-serif;
+    max-width: 1440px;
+    max-height: 4510px;
+    width: 100%;
+    height: 100%;
+    background-color: #F9F9F9;
+    margin: 0 auto;
+}
+.header{
+    max-width: 1272px; 
+    padding: 0;  
+    margin:37px 87px;
+}
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img{
+    max-width: 234px;
+    max-height: 49px;
+    width: 100%;
+
+}
+.navi a, .button{
+ color: #262626;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.button{
+ padding: 9px 33px;
+ border-radius: 40px;
+background: #4CE0D7;
+}
+.navi img{
+    width: 47px;
+    height: 47px;
+    flex: shrink 0; 
+}
+.navi{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.footer-conteiner{
+    max-width: 1440px;
+    height: 308px;
+    border-radius: 40px 40px 0px 0px;
+    background-color: #FFFFFF;
+
+    position: relative;
+}
+
+.footer-logo img{
+    max-width: 226px;
+    height: 49px;
+    width: 100%;
+}
+
+.footer-cont{
+    max-width: 1270px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 87px 89px 127px 84px;
+    
+
+}
+.cont-cont{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+h2{
+ color: #262626;
+font-family: Poppins, sans-serif;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.text{
+max-width:227px;
+height: 42px;
+flex-shrink: 0;
+}
+.absolut-element{
+    position: absolute;
+}
+.first-element{
+    max-width: 1267px;
+    top: 213px;
+    bottom: 95px;
+    left: 87px;
+    right: 87px;
+}
+
+.second-element{
+    color: #262626;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: 247px;
+    bottom: 37px;
+    left: 88px;
+    right: 939px; 
+}
+        
+/* First-section-Maria */
+
+.welcome-section {
+    max-width: 1272px;
+    width: 100%;
+    margin: 0 auto;
+
+    height: 559px;
+    width: 100%;
+
+    background-image: url(./assets/pexels-andrea-piacquadio-994234\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
+    margin-left: 84px;
+    margin-right: 84px;
+    margin-bottom: 72px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.welcome-section h1 {
+    
+    
+    font-family: 'Poppins';
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #ffff;
+
+    margin-left: 57px;
+    margin-top: 0px;
+    margin-bottom: 19px;
+    margin-right: 588px;
+}
+
+.welcome-section span {
+
+    background: linear-gradient(to right, #4CE0D7, #8BA9F4);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.welcome-section h3 {
+    
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.23em;
+    text-align: left;
+
+    color: #ffff;
+
+    margin-left: 57px;
+    margin-top: 218px;
+    margin-bottom: 19px;
+    margin-right: 1026px;
+}
+
+.welcome-section p {
+    
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #ffff;
+
+    margin-left: 53px;
+    margin-top: 0px;
+    margin-bottom: 141px;
+    margin-right: 725px;
+
+    width: 494px;
+    height: 72px;
+}
+
+
+.top {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 107px 0 36px 84px;
+    width: 282px;
+   height: 36px;
+
+}
+
+.Topics-cards{
+
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+ justify-content:space-around;
+
+}
+
+.Topics-card {
+    width: 204px;
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+    padding: 20px 10px;
+    border: 5px solid #c9e5eada;
+    border-radius: 20px;
+}
+
+.Topics-card a{
+    padding: 9px 35px;
+    background-color: #4CE0D7;
+    color: rgb(10, 9, 9);
+    border-radius: 15px;
+    font-size: 17px;
+}
+  
+
+/* section fashion irena */
+.conteiner-fashion{
+    max-width: 1204px;
+    max-height: 698px;
+    height: 100% ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+}
+.vecctor{
+    max-width: 1267px;
+    width:100%;
+    margin: 0 auto;
+    margin-bottom: 53px;
+
+}
+
+
+.small-conteinerfashion {
+    background-image: url(assets/pexels-sabrina-kennelly-1857000\ 1.png);
+    max-width: 1204px;
+    width: 100%;
+    height: 360px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.small-containerfashion a, .buttons{
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 71px;
+    height: 18px;
+    flex-shrink: 0;
+
+}
+ .buttons{
+    padding: 11px 81px 9px 81px;
+    transform: rotate(-0.604deg);
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: #262626;  
+ }
+  .button-element{
+    top: 23px;
+    left: 57px;
+    right: 922px;
+    bottom: 637px;
+  }
+
+  .small-text{
+    display: flex;
+    padding: 16px 62px;
+    gap: 49px;
+    align-items: center;
+
+  }
+  .small-text img{
+    width: 66px;
+    height: 51px;
+    border-radius: 40px;  
+  }
+  .small-text h5{
+    color: #BCBCBC;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+.small-cont-text{
+    display: flex;
+    flex-direction: column;
+}
+ .text-element {
+    color: #F25E5E;
+     font-family: Poppins;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     letter-spacing: 3.36px;
+     padding: ;
+         }
+
+ .text-element{
+    top: 400px;
+    left: 924px;
+    right: 64px;
+    bottom: 275px;
+ }
+
+ .column-conteiner{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin: 0 auto;
+    max-width: 1204px;
+    width:100%;
+    height: 234px;
+    position: relative;
+
+ }
+ .fashionweek{
+   max-width: 1044px;
+    height: 36px;
+    width: 100%;
+    flex-shrink: 0;
+    padding: 0 96px 0 64px;
+ }
+
+ 
+ .fashionweek-content{
+    text-align: left;
+    color: #262626;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 1033px;
+    width: 100%;
+    height: 73px;
+    padding: 0 107px 0 64px ;
+ }
+.arrow{
+    width: 51px;
+    height: 40px;
+    padding: 0 0 0 51px;
+}
+
+.absolut-element{
+    width: 215px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.element-read{
+    color: #4CE0D7;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.88px;
+    left: 113px;
+    right: 876px;
+    top: 165px;
+}
+
+.button:hover {
+    background-color:#c1e0e6;
+    border: solid;
+
+
+}
+
+ .buttons:hover{
+    background-color:#5e5757;
+}
+ .element-read:hover{
+    color: #BCBCBC;
+ }
+ 
+.navi a:hover {
+ color:#BCBCBC ;
+}
+.navi img:hover{
+    transform: scale(1,2);
+}
+
+.Topics-cards{
+    display: flex;
+    flex-direction: row;
+    max-width: 1272px;
+    max-height: 292px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+.Topics-card img{
+  max-width: 103px;
+  max-height: 103px;
+  width: 100%;
+  height:100% ;
+}
+.button1:hover{
+    background-color:#c1e0e6;
+    border: solid;
+}
+
+.imgtag:hover{
+    background-color:#c1e0e6;
+    border: solid
+}
+/* Trending section after this (Alex's part) */
+.sectionheader {
+    padding: 0;
+    margin: 97px 126px 0;
+    color: #262626;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.trendinghorizontal{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.trendingvertical{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Fixes the vertical section not looking proper problem */
+.container {
+    display: flex;
+    flex-direction: row wrap;
+}
+
+.vertcontent {
+    max-width: 656px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;   
+    background: white; 
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05); 
+    border-radius: 20px;
+    height: 100%;
+}
+
+.vertcard {
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    max-width: 1204px;
+    width: 100%;
+    max-height: 368px;
+    height: 100%;
+    background: white; 
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05); 
+    border-radius: 20px;
+}
+
+#hcard1 {
+    max-height: 670px;
+    max-width: 579px;
+    margin: 55px 30px auto 118px;
+}
+
+#hcard2 {
+    max-height: 670px;
+    max-width: 565px;
+    margin: 55px 118px 40px 30px;
+}
+
+#vcard1 {
+    margin-top: 88px;
+}
+
+#vcard2 {
+    margin-top: 48px;
+}
+
+#vcard3 {
+    margin-top: 58px;
+    margin-bottom: 69px;
+}
+
+.cardimg {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cardimgvert {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    max-width: 548px;
+    max-height: 368px;
+}
+
+.imgtag { 
+    display: flex;
+    background: #262626;
+    border-radius: 40px;
+    position: absolute;
+    top: 20px;
+    left: 34.14px;
+    width: 175.438px;
+    height: 36.491px;
+    justify-content: center;
+}
+
+.imgtag p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 9.3px 0;
+}
+
+.pretitlehor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pretitlevert {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.womaniconhor {
+    margin: 30px 25px 35px 25px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.womaniconver {
+    margin: 18px 14px 12px 40px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.namedate {
+    display: flex;
+    align-content: center;
+    gap: 150px;
+    color: #BCBCBC;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.horcardtext {
+    color: #262626;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 200px 20px 35px;
+}
+
+.vertcardtext {
+    color: #262626;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 12px 100px 20px 40px;
+}
+
+.cardtitle {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+
+.vertcardtitle {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 100px 30px auto;
+}
+
+.readmorebtn {
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.88px;
+    text-decoration: none;
+    margin: auto auto 45px 22px;
+}
+
+.readmorebtn a {
+    display: flex;
+    align-items: center;
+    color: #4CE0D7;
+}
+
+.readmorebtn a:hover {
+    text-decoration: underline;
+}     
